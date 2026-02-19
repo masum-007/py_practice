@@ -1,0 +1,2 @@
+name = "masum"
+print(name)
