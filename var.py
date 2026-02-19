@@ -1,2 +1,0 @@
-name = "masum"
-print(name)
