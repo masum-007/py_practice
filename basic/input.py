@@ -1,1 +1,1 @@
-print("hello " + input("enter your name "))
+print(12/(1+2)+2**2)
