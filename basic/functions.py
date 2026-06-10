@@ -13,8 +13,8 @@ def cnvrt_sec(second):
     #return hr, min, sec
     # The :02d tells Python to use 2 digits and pad with zero
     #return f"{hr:02d}:{minutes:02d}:{sec:02d}"
-    return f" {hr} Hour, {min} Min and {sec} Seconds"
-print("It is" +cnvrt_sec(3665))   
+    #return f" {hr} Hour, {min} Min and {sec} Seconds"
+#print("It is" +cnvrt_sec(3665))   
 
 def format_time_text(seconds):
     hr, remainder = divmod(seconds, 3600)
