@@ -29,3 +29,10 @@ def format_time_text(seconds):
     return f"{hr} {hr_str} {minutes} {min_str} and {sec:02d} {sec_str}"
 
 print(format_time_text(3665))
+
+#code style
+def area_calculator(radius):
+    pi=3.1416
+    area=pi*(radius ** 2)
+    print(area)
+area_calculator(7)
