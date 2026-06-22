@@ -41,3 +41,5 @@ for home in teams:
         if home != away:
             print(home + " vs " + away)
 print("I am reading")
+print("I am reading")
+print("I am reading")
